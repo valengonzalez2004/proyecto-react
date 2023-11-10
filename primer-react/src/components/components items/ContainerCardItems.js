@@ -9,7 +9,7 @@ const ContainerCardItems = () => {
 
     useEffect(() => {
         fetchSimulation(products, 3000)
-            .then(resp => setDatos)
+            .then(resp => setDatos(resp))
             .catch(error => console.log(error))
     }, [])
 
@@ -19,7 +19,7 @@ const ContainerCardItems = () => {
                 datos.map( products => (
                     <CardItem
                         key={products.id}
-                        imagen={products.imageProduct.firstImage}
+                        image={products.imageProduct.firstImage}
                         title={products.title}
                         cantidad={products.stock}
                         precio={products.price}

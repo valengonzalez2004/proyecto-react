@@ -4,7 +4,7 @@ const fetchSimulation = (dataBase, time) => {
             resolve(dataBase);
             rejact(new Error("algo salio mal"))
         }, time)
-    } )
+    })
 }
 
 export default fetchSimulation;
