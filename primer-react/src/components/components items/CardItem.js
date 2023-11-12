@@ -2,7 +2,7 @@ import Imagen from "./Imagen";
 import "../../styles/cardItem.css"
 import Description from "./Description";
 import ButtonDetalles from "./Buttondetalles";
-import ButtonAddCart from "./ButtonAddCart";
+import ButtonAddCart from "./ButtonAddCart"
 
 const CardItem = (props) => {
     return(

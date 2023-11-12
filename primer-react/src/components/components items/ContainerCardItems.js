@@ -2,7 +2,6 @@ import CardItem from "./CardItem";
 import fetchSimulation from "../../utils/fetchSimulation";
 import products from "../../utils/products";
 import { useState, useEffect } from "react";
-import "../../styles/ContainerCardItems.css";
 
 const ContainerCardItems = () => {
     const [datos, setDatos] = useState([]);
