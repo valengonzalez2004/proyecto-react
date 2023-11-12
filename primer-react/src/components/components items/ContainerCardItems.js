@@ -9,14 +9,14 @@ const ContainerCardItems = () => {
 
     useEffect(() => {
         fetchSimulation(products, 3000)
-            .then(resp => setDatos)
+            .then(resp => setDatos(resp))
             .catch(error => console.log(error))
     }, [])
 
     return (
         <div className="containerCardItems">
             {
-                datos.map( products => (
+                datos.map( products =>  ( 
                     <CardItem
                         key={products.id}
                         imagen={products.imageProduct.firstImage}

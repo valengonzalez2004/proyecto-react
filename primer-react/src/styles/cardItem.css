@@ -5,7 +5,7 @@
 }
 
 .cardItem{
-    border: 1px solid black;
+    border: 1px solid #000;
     height: 400px;
     width: 300px;
     padding: 6px;
@@ -13,11 +13,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #000;
+    background-color: white;
 }
 
 .cardItem .cardImg{
-    border: 1px solid #fca311;
+    border: 1px solid #000;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
 .cardDescription .title{
     font-size: 21px;
     margin: 6px 0;
-    color: #edf6f9;
+    color: #000;
 }
 
 .cardDescription .description{
@@ -45,7 +45,7 @@
 }
 
 .cardDescription .cant{
-    color: black;
+    color: #000;
     font-size: 13px;
     margin: 6px 0;
 }
@@ -54,7 +54,7 @@
     font-size: 30px;
     font-weight: bold;
     width: 100%;
-    color: #edf6f9;
+    color: #000;
 }
 
 .buttons{
