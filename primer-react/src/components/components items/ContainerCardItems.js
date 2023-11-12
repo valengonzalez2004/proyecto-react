@@ -19,7 +19,7 @@ const ContainerCardItems = () => {
                 datos.map( products =>  ( 
                     <CardItem
                         key={products.id}
-                        imagen={products.imageProduct.firstImage}
+                        image={products.imageProduct.firstImage}
                         title={products.title}
                         cantidad={products.stock}
                         precio={products.price}

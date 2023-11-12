@@ -61,7 +61,7 @@ const productos = [
         type: "Instrumento",
         imageProduct: {
             firstImage: "https://www.rainbowguitars.com/imagesproduct/fe/fe2811001370-xl-02.jpg",
-            secondImage: "https://http2.mlstatic.com/D_NQ_NP_970575-MLA42767646612_072020-O.webp"
+            secondImage: "https://http2.mlstatic.com/D_NQ_NP_970575-MLA42767646612_072020-O.webp",
         },
         price: 700000,      
     },
